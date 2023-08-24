@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.maincontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F3F3;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-block: 20px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: 14px;
+}
+.navbar button{
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid grey;
+}
+#blank{
+    width: 90%;
+    height: 30px;
+    border-radius: 30px;
+    border-bottom: none;
+    border-left: 7px;
+    border-right: 7px;
+    background-color: transparent;
+    margin-left: 5%;
+}
+.capsule{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-block: 20px;
+}
+.capsule span{
+    display: flex;
+    /* align-items: center;  */
+    /* text-align: center;   */
+
+}
+.capsule span button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 15px;/
+    /* margin-left: 0px; */
+}
+.capsule h1{
+    font-size: 60px;
+}
+.capsule img{
+    width: 10%;
+}
+.doctor{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+}
+.card{
+    background-color: #FFFFFF;
+    padding-inline: 30px;
+    border-radius: 20px;
+    padding-block: 10px;
+}
+.card span{
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-between;
+}
+.tabimg{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    border-radius: 20px;
+}
+.tabimg img{
+    /* width: 100px; */
+    height: 100px;
+    background-color:#F3F3F3;
+/* width: 100px; */
+}
+.tabimg i{
+    margin-top: 100px;
+}
+.saving span{
+    display: flex;
+    align-items: center;
+    padding-block: 70px;
+
+}
+.saving span p{
+    font-size: 10px;
+    padding-inline: 10px;
+}
+.icon{
+    padding-block: 30px;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E2E1E1;
+    margin-top: 30px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.card1 button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    /* padding: 20px    ; */
+}
+@media(max-width:768px){
+    .maincontainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .capsule{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .capsule h1{
+        font-size: 28px;
+    }
+    .capsule span{
+        width: 60%;
+        height: auto;
+    }
+    .doctor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .capsule span button{
+        width: 50px;
+        height: 30px;
+    }
+    .card{
+        width: 100%;
+    }
+    .saving{
+        padding-left: 100px;
+    }
+}
